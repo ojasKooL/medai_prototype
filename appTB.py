@@ -6,10 +6,7 @@ from PIL import Image
 from io import BytesIO
 
 def app():
-    st.header('Object Detection Web App')
-    st.subheader('Powered by YOLOv8')
-    st.write('Welcome!')
-
+    st.header('Med AI Tuberculosis Bacilli Detection')
     try:
         # Load the YOLOv8 model
         model = YOLO('best.pt')
